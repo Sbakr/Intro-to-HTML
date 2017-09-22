@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+    </head>
+    
+    <style>
+        #start {
+            color:rgb(202, 9, 224);
+        }
+        .story {
+            color:rgb(255, 0, 0);
+        }
+        h2 {
+            background-color:rgb(235, 214, 235);
+        }
+        body {
+            background-color:rgb(237, 192, 237);
+        }
+    </style>
+    
+    <body>
+    
+        <h1>Follow me to!</h1>
+        <h2>By: Steph Baker <br> A blog to follow all my adventures on my hawaii trip</h2>
+        
+        <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" alt= "Beach picture" width = "200">
+        
+        <h3>Remember to....</h3>
+        <ul>
+            <li>Bring sunscreen</li>
+            <li>Drink lots of water</li>
+            <li>Take lots of pictures!</li>
+        </ul>
+        
+        <h3>Today we are going to....</h3>
+        <ol>
+            <li>Go to the beach</li>
+            <li>Snorkel</li>
+            <li>Eat an authentic lunch!</li>
+        </ol>
+        
+        <img src="https://www.kasandbox.org/programming-images/food/oysters.png" alt = "oysters" width = "100" >
+        
+        <p id="start">Today we are going to adventure to the <strong>beach</strong>. At the beach we get our zoom glasses out and see a <em>dolphin</em>. </p>
+        
+        <img src="https://www.kasandbox.org/programming-images/animals/shark.png" alt="This is a dolphin" width="250">
+        
+        <p class="story">We try to swim to the dolphin but the locals warned us about the danger <em>"Dont worry, we've been to discovery cove before. We can handle dolphins"</em> we told them.</p>
+        
+        <p class="story"> We grabbed our scuba gear and jumped in! Tune in next week to hear what happened!</p>
+        
+    </body>
+</html>
