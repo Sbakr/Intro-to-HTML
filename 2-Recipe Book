@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+<!-- Calling to make it pretty -->
+        <style>
+        #short-cake {
+            color: rgb(196, 168, 6);
+        }
+        #yum-cookies {
+            color: rgb(65, 69, 186);
+        }
+        #easy-kd {
+            color:rgb(138, 26, 138);
+        }
+        h1 {
+            background-color: rgb(247, 161, 247);
+        }
+        body{
+            background-color: rgb(255, 240, 191);
+        }
+        .tables {
+            background-color:rgb(191, 170, 191);
+        }
+        </style>
+    </head>
+    <body>
+<!-- Title -->
+        <h1>The Osborne's Recipe Book</h1>
+<!-- Allowing Recipes to be Called -->        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#easy-kd">Easy Kraft Dinner</a></li>
+            <li><a href="#short-cake">Shortcake</a></li>
+            <li><a href="#yum-cookies">Peanut Butter Cookies</a></li>
+        </ol>
+        
+<!-- First Recipe -->
+ <h2 id="easy-kd">Homemade Kraft Dinner</h2>       
+        <table class="tables">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kraft Dinner Cheese</td>
+                    <td>1 pack</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>As soupy as you like</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>1 Tablespoon</td>
+                </tr>
+                <tr>
+                    <td>Kraft Dinner Noodles</td>
+                    <td>1 Pack</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Turn on dtove. <br>
+        <strong>Step 2:</strong> Cook noodles for 7 mintes <br>
+        <strong>Step 3:</strong> Mix cheese powder, milk, and butter. <br>
+        <strong>Step 4:</strong> Stir well <br>
+        <strong>Step 5:</strong> Enjoy!!
+</p>
+        <img src="https://www.kasandbox.org/programming-images/food/pasta.png" width = "140">
+ 
+<!-- Second Recipe -->        
+        <h2 id="short-cake">Shortcake</h2>
+        
+        <h4>Ingredients</h4>
+                <table class="tables">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Strawberries</td>
+                    <td>1 1/2 pounds</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>5 Tablespoons</td>
+                </tr>
+                <tr>
+                    <td>Flour</td>
+                    <td>2 cups</td>
+                </tr>
+                <tr>
+                    <td>Baking Powder</td>
+                    <td>2 Teaspoons</td>
+                </tr>
+                <tr>
+                    <td>Baking Soda</td>
+                    <td>1/4 Teaspoons</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>2 Tablespoons</td>
+                </tr>
+                    <tr>
+                    <td>Salt</td>
+                    <td>3/4 Teaspoons</td>
+                </tr>
+                <tr>
+                    <td>Heavy Cream</td>
+                    <td>1 1/2 cups</td>
+                </tr>
+                <tr>
+                    <td>Whipped Cream</td>
+                    <td>For Topping</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p>Mix strawberries and sugar, let sit. Preheat oven to 400F. Stir everything together. Cook for 18 to 20 minutes. Serve with strawberries and whipped cream.<br><br>Time: 1hr 10 mins <br> Serves: 6 </p>
+        <img src= "https://www.kasandbox.org/programming-images/food/strawberries.png"width="250">
+        
+<!-- Third Recipe -->
+ <h2 id="yum-cookies">Peanut Butter Cookies</h2>       
+        <table class="tables">
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peanut Butter</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>1/3 Cups</td>
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Chips</td>
+                    <td>1/3 Cups</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Preheat oven to 300F. <br>
+        <strong>Step 2:</strong> Mix everything together. <br>
+        <strong>Step 3:</strong> Spray pan with PAM. <br>
+        <strong>Step 4:</strong> Cook on cookie sheet for 7 minutes. <br>
+        <strong>Step 5:</strong> Enjoy!!
+</p>
+
+       <img src="https://www.kasandbox.org/programming-images/seasonal/gingerbread-man.png" width="150"> 
+       
+<!-- Sources -->
+    <p>Source: <em><br> <a href="http://www.foodnetwork.com/recipes/strawberry-shortcake-recipe3-1938695">Shortcake</a></em> <br>
+       <em><a href="http://www.kraftcanada.com/recipes/super-easy-peanut-butter-cookies-85456">Peanut Butter Cookie</a></em> 
+        <em><a href="http://www.kraftcanada.com/brands/kraft-dinner">Kraft Dinner</a></em>  
+    </p>
+    
+    </body>
+</html>
