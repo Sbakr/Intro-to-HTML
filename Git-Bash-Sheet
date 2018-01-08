@@ -1,0 +1,7 @@
+1. git clone (add wesite url)      - gets file on computer
+2. ls                              - shows list of files on computer
+3. cd (file name)                  - enters file
+4. ls                              - checks list of files in document
+5. git add --all                   - after updates you add all the updates
+6. get commit -m 'message'         - add the message of what you changed
+7. git push --all                  - push back to git hub
