@@ -5,3 +5,7 @@
 5. git add --all                   - after updates you add all the updates
 6. get commit -m 'message'         - add the message of what you changed
 7. git push --all                  - push back to git hub
+
+
+
+once in the repository if you change something on github you can git pull --all to get all the files down
